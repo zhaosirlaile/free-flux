@@ -144,9 +144,9 @@ const GenerateImage: FC = () => {
               onChange={(e) => setSize(e.target.value)}
               className="w-full px-5 py-3 rounded-xl border border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white bg-opacity-20 text-white transition duration-300 ease-in-out hover:bg-opacity-30"
             >
-              <option value="512x512">512x512</option>
-              <option value="768x768">768x768</option>
               <option value="1024x1024">1024x1024</option>
+              <option value="1024x576">1024x576</option>
+              <option value="1152x648">1152x648</option>
             </select>
           </div>
           <div>
